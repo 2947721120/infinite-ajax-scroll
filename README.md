@@ -1,58 +1,52 @@
 Infinite AJAX Scroll
 ====================
 
-A jQuery plugin to turn your paginated pages into infinite scrolling pages with ease.
-
-Downloads, documentation and demos available at: http://infiniteajaxscroll.com/
+jQuery插件把你的分页的页面到无限滚动网页提供方便。
+下载，文档和演示，请访问： http://infiniteajaxscroll.com/
 
 [![Build Status](https://travis-ci.org/webcreate/infinite-ajax-scroll.png?branch=master)](https://travis-ci.org/webcreate/infinite-ajax-scroll)
 
 ## Licensing
-
-Infinite AJAX Scroll may be used in commercial projects and applications with the one-time purchase of a commercial license.
+无限AJAX滚动可以用在商业项目和应用程序一次性购买商业许可。
 
 http://infiniteajaxscroll.com/docs/license.html
 
-For non-commercial, personal, or open source projects and applications, you may use Infinite AJAX Scroll under the terms of the MIT License. You may use Infinite AJAX Scroll for free.
+对于非商业的，个人的，或者开源项目和应用程序，你可以使用AJAX的无限滚动在MIT许可的条款。您可以使用AJAX的无限滚动免费。
 
-## Contributing
+## 贡献
+为了促进无限AJAX滚动，请遵循以下说明：
+*叉项目，并创建一个新的特性分支
+*安装开发工具
+*写功能/修正错误
+*未来的/修正错误的写入测试
+*运行测试
+*提交您的pull请求
+### 安装开发工具
 
-To contribute to Infinite AJAX Scroll please follow these instructions:
-
-* Fork the project and create a new feature branch
-* Install the development tools
-* Write the feature/bugfix
-* Write tests for the feature/bugfix
-* Run tests
-* Submit your Pull Request
-
-### Installing development tools
-
-1. Install bower components
+1. 安装bower 组件
 
     ``` sh
     $ bower install
     ```
 
-2. Install npm modules
+2. 安装 npm 模块
 
     ``` sh
     $ npm install
     ```
 
-### Running tests
+### 运行测试
+测试与完成 [Busterjs](https://github.com/busterjs/buster) and [Grunt](https://github.com/gruntjs/grunt).
 
-Testing is done with [Busterjs](https://github.com/busterjs/buster) and [Grunt](https://github.com/gruntjs/grunt).
-
-1. Start a buster server:
+1.启动 a buster 服务器：:
 
     ``` sh
     $ grunt buster::server:block
     ```
 
-2. Launch some browsers and connect to `http://localhost:1111` and capture them.
+2.推出一些浏览器和连接到 `http://localhost:1111` 并捕获它们。
 
-3. Run tests:
+3. 运行测试：
 
     ``` sh
     $ grunt buster::test
